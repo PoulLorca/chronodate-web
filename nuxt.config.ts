@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Chronodate Website' },
         { property: 'og:description', content: 'An open-source Bluesky bot posting daily progress of the year and more.' },
         { property: 'og:image', content: '/og-image.png' }, 
-        { property: 'og:url', content: 'https://your-domain.com' }, // Replace with your actual domain
+        { property: 'og:url', content: 'https://chronodate-web.vercel.app/' }, // Replace with your actual domain
         // Twitter Card Meta Tags
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'ChronoDate Website' },
