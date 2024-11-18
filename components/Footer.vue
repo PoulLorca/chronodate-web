@@ -51,6 +51,8 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .footer {  
+  position: relative;
+  z-index: 1;
   width: 100%;
   text-align: center;
   margin-top: auto;

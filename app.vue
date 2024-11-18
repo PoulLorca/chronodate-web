@@ -38,7 +38,8 @@ const followOnBlueSky = () => {
 
 <style>
 .app-container {
-  position: flex;
+  position: relative;
+  display: flex;
   flex-direction: column;
   /*width: 100%;*/
   min-height: 100vh;
@@ -55,6 +56,7 @@ const followOnBlueSky = () => {
   }
 
 .content-container{
+  flex:1;
   position: relative;
   z-index: 1;
   display: flex;
